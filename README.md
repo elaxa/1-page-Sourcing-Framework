@@ -2,10 +2,10 @@
 BDD Testing Framework with RSpec, Watir &amp; Taza
 
 1. Make sure Install RVM on your machine
-2. Use RVM to install ruby with command rvm install ruby-2.0.0-p598 
+2. Use RVM to install ruby with command ```rvm install ruby-2.0.0-p598``` 
 3. Install bundle 
-4. Once bundle is installed clone the repository from git with command: git clone git@github.com:1-Page/sourcing-test-framework.git 
-5. cd sourcing-test-framework
+4. Once bundle is installed clone the repository from git with command: ```git clone git@github.com:1-Page/sourcing-test-framework.git``` 
+5. ```cd sourcing-test-framework```
 6. If RVM is install get a message: 
   ```
 You are using '.rvmrc', it requires trusting, it is slower and it is not compatible with other ruby managers,
