@@ -1,0 +1,6 @@
+/reports/screens
+.idea/*
+.idea/workspace.xml
+/reports
+./DS_Store
+/reports/allure/
