@@ -1,0 +1,7 @@
+---
+isolation:
+    :url:  https://brodev.venuatu.me/
+
+qa:
+    :url:  https://brodev.venuatu.me/
+    :search: https://brodev.venuatu.me/search.html
