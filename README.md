@@ -20,7 +20,13 @@ Using /Users/Rodion/.rvm/gems/ruby-2.0.0-p598
   ```
 gem install --local taza-0.9.2.1.gem
 ```
-8. run: bundle install
-9. run: rspec spec/isolation/search_page_spec.rb
+8. run: ```bundle install```
+9. run: ```rspec spec/isolation/search_page_spec.rb```
 10. FF browser opens and run the tests
-11. Generating reports will come later... 
+11. To generate reporst we need to install: Allure Plugin
+12. Go here: https://github.com/allure-framework/allure-cli and use the instructions for your machine
+13. To generate reports run: ```allure generate reports/allure -o reports/allure-reports -v 1.4.0```
+14. Open index.html in reports/allure-reports folder using FF or run on MAC: ```open reports/allure-reports/index.html```
+15. Reports should be visible: 
+
+![alt tag](https://lh5.googleusercontent.com/M6Gaoj0upbgDlM6Uti2PgNals-p2_EyhMHrxDv2vWen5K6g-f9vQKO88u6eYQ3c97LlqUe-KTrE=w2560-h1518)
