@@ -7,7 +7,6 @@ BDD Testing Framework with RSpec, Watir &amp; Taza
 4. Once bundle is installed clone the repository from git with command: git clone git@github.com:1-Page/sourcing-test-framework.git 
 5. cd sourcing-test-framework
 6. If RVM is install get a message: 
-
 ```
 You are using '.rvmrc', it requires trusting, it is slower and it is not compatible with other ruby managers,
 you can switch to '.ruby-version' using 'rvm rvmrc to ruby-version'
@@ -17,7 +16,6 @@ to ignore the warning for all files run 'rvm rvmrc warning ignore all.rvmrcs'.
 
 Using /Users/Rodion/.rvm/gems/ruby-2.0.0-p598
 ```
-
 7. Install taza gem locally on your machine. I modified that gem a bit, so it needs to get installed locally using command
 ```
 gem install --local taza-0.9.2.1.gem
