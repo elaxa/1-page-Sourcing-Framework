@@ -167,6 +167,7 @@ DEPENDENCIES
   mime
   minitest
   mocha (= 0.9.3)
+  nokogiri
   pdf-reader (~> 1.3.3)
   phantomjs
   rake
