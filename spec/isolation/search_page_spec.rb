@@ -7,4 +7,7 @@ describe "SearchPage" do
     @sourcing.search_page.submit_btn.present?.should be true
   end
 
+
+
+
 end

@@ -4,3 +4,5 @@
 /reports
 ./DS_Store
 /reports/allure/
+/reports/allure-reports/
+/reports/allure-reports-archive/
