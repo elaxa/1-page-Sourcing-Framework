@@ -1,3 +1,17 @@
+GIT
+  remote: https://github.com/Rodion13/taza
+  revision: 6ed45be6546ef26b0f900d963e4464155a94cf10
+  specs:
+    taza (0.9.2.1)
+      Selenium (~> 1.1.14)
+      activesupport (>= 3.1.0)
+      firewatir (~> 1.9.4)
+      rake (>= 0.9.2)
+      thor (>= 0.18.1)
+      user-choices (~> 1.1.6.1)
+      watir (~> 5.0.0)
+      watir-webdriver (~> 0.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -85,7 +99,7 @@ GEM
       activesupport (>= 4.2.0.beta, < 5.0)
       nokogiri (~> 1.6.0)
       rails-deprecated_sanitizer (>= 1.0.1)
-    rails-html-sanitizer (1.0.1)
+    rails-html-sanitizer (1.0.2)
       loofah (~> 2.0)
     railties (4.2.0)
       actionpack (= 4.2.0)
@@ -123,18 +137,8 @@ GEM
       rubyzip (~> 1.0)
       websocket (~> 1.0)
     systemu (2.6.4)
-    taza (0.9.2.1)
-      Selenium (~> 1.1.14)
-      activesupport (>= 3.1.0)
-      firewatir (~> 1.9.4)
-      mocha (~> 0.9.3)
-      rake (>= 0.9.2)
-      thor (>= 0.18.1)
-      user-choices (~> 1.1.6.1)
-      watir (~> 5.0.0)
-      watir-webdriver (~> 0.4)
     thor (0.19.1)
-    thread_safe (0.3.4)
+    thread_safe (0.3.5)
     ttfunk (1.4.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -167,6 +171,7 @@ DEPENDENCIES
   mime
   minitest
   mocha (= 0.9.3)
+  nokogiri
   pdf-reader (~> 1.3.3)
   phantomjs
   rake
@@ -177,6 +182,6 @@ DEPENDENCIES
   rspec-rails
   rspec-support
   selenium-webdriver (~> 2.43.0)
-  taza
+  taza!
   watir-dom-wait
   watir-webdriver
