@@ -29,7 +29,7 @@ SCREENS_FOLDER = HTML_REPORT_FOLDER + '/screens'
 ALLURE_REPORTS = HTML_REPORT_FOLDER + '/allure'
 
 RSpec.configure do |config|
-  #include Taza::Fixtures::Sourcing
+  include Taza::Fixtures::Sourcing
 
   config.mock_with :mocha
   config.color = true                                         # Use color in STDOUT
