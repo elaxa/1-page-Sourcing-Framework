@@ -7,8 +7,5 @@ dependencies:
 test:
     post:
     - mkdir -p $CIRCLE_TEST_REPORTS/allure
-    - allure generate $CIRCLE_TEST_REPORTS/allure -o $CIRCLE_ARTIFACTS/allure-reports -v 1.4.4
+    - allure generate $CIRCLE_TEST_REPORTS/allure -o $CIRCLE_TEST_REPORTS/allure-reports -v 1.4.4
 
-general:
-  artifacts:
-      - "$CIRCLE_ARTIFACTS/allure-reports" # allure-reports
