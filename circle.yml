@@ -11,5 +11,4 @@ test:
 
 general:
   artifacts:
-    override:
-      - "$CIRCLE_TEST_REPORTS/allure-reports" # allure-reports
+      - "~/allure-reports" # allure-reports
