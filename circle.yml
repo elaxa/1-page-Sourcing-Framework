@@ -1,5 +1,6 @@
 dependencies:
   pre:
+    - sudo apt-add-repository ppa:yandex-qatools/allure-framework
     - sudo apt-get install allure-cli
 
 test:
