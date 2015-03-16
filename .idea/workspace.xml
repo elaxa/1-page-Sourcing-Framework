@@ -83,8 +83,8 @@
       <file leaf-file-name="circle.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/circle.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24429968" vertical-offset="0" max-vertical-offset="614">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.2198697" vertical-offset="0" max-vertical-offset="255">
+              <caret line="9" column="89" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -976,8 +976,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/circle.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24429968" vertical-offset="0" max-vertical-offset="614">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.2198697" vertical-offset="0" max-vertical-offset="255">
+          <caret line="9" column="89" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
           <folding />
         </state>
       </provider>
