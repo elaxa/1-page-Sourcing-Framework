@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'watir-webdriver'
-gem 'selenium-webdriver' , '~> 2.43.0'
+gem 'selenium-webdriver' , '2.45.0'
 gem 'activesupport'
 gem 'rake'
 gem 'rspec'
