@@ -165,6 +165,7 @@ DEPENDENCIES
   activesupport
   allure-rspec (= 0.6.4)
   faker
+  ffi
   gmail
   headless
   i18n
