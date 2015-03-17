@@ -21,16 +21,14 @@ describe "SearchPage" do
 
     s.step "And 'Submit' button is clicked" do
       @sourcing.search_page.submit_btn.click
-      sleep 11 #TODO remove sleep
+      @sourcing.jq_based_waiter
     end
 
     s.step 'Then 2 results are displayed' do
-      @sourcing.search_page.row_result.size.should == 3
+      @sourcing.search_page.row_result.size.should == 2
     end
 
   end
-
-
 
 
 end
