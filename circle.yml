@@ -6,5 +6,6 @@ dependencies:
 
 test:
     post:
-    - allure generate $CIRCLE_TEST_REPORTS/allure -o $CIRCLE_TEST_REPORTS/allure-test -v 1.4.3
+    - mkdir -p $CIRCLE_TEST_REPORTS/allure
+    - allure generate $CIRCLE_TEST_REPORTS/allure -o $CIRCLE_TEST_REPORTS/allure -v 1.4.3
 
