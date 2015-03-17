@@ -13,7 +13,6 @@ describe "SearchPage" do
     profession = 'Quality Engineer'
 
     s.step "Given that profession is #{profession}" do
-
     end
 
     s.step "And search field is populated with #{profession}" do
@@ -22,7 +21,7 @@ describe "SearchPage" do
 
     s.step "And 'Submit' button is clicked" do
       @sourcing.search_page.submit_btn.click
-      sleep 10 #TODO remove sleep
+      sleep 11 #TODO remove sleep
     end
 
     s.step 'Then 2 results are displayed' do
