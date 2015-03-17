@@ -25,7 +25,7 @@ describe "SearchPage" do
     end
 
     s.step 'Then 2 results are displayed' do
-      @sourcing.search_page.row_result.size.equal? 2
+      @sourcing.search_page.row_result.size.equal? 3
     end
 
   end
